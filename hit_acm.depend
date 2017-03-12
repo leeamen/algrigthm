@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1488217273 source:d:\hit_acm\hit_acm\hit-1003.cpp
+	<iostream>
+	<queue>
+
+1488958793 source:d:\hit_acm\hit_acm\course_fenzhi.cpp
+	<cstdio>
+	<cstdlib>
+	<random>
+	<iostream>
+	<algorithm>
+
+1488961237 source:d:\hit_acm\hit_acm\qsort.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+
+1488965133 source:d:\hit_acm\hit_acm\ch3_divide_merge_sort.cpp
+	<cstdio>
+	<cstdlib>
+	<random>
+	<iostream>
+	<algorithm>
+
+1488965331 source:d:\hit_acm\hit_acm\ch3_max_int.cpp
+	<cstdio>
+	<cstdlib>
+	<random>
+	<iostream>
+
+1488985434 source:d:\hit_acm\hit_acm\ch3_product.cpp
+	<cstdio>
+	<cstdlib>
+	<random>
+	<iostream>
+
+1489230376 source:d:\hit_acm\hit_acm\median.cpp
+	<random>
+	<iostream>
+	<vector>
+
+1489318167 source:d:\hit_acm\hit_acm\linear_select.cpp
+	<random>
+	<iostream>
+	<vector>
+
+1489246667 source:d:\hit_acm\hit_acm\insert_sort.cpp
+	<iostream>
+
