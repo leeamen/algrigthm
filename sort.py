@@ -20,12 +20,13 @@ def InsertSort(x):
 快速排序
 '''
 def QuickSort(x, start_idx, end_idx):
-  pivot = x[start_idx];
   i = start_idx
   j = end_idx
 
   if i >= j:
     return
+
+  pivot = x[start_idx];
 
   while i < j:
     while i < j and x[j] > pivot:

@@ -56,7 +56,7 @@ int LinearSelect(int arr[], int n, int k)
     /*
     小技巧，将每组的中位数交换到最前面
     */
-    Swap(arr[i], arr[i * 5 + 3]);
+    Swap(arr[i], arr[i * 5 + 2]);
   }
   /*
   选取中位数
