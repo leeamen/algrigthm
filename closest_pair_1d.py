@@ -1,4 +1,4 @@
-#/usr/bin/python
+#!/usr/bin/python
 #coding:utf8
 
 import random
@@ -67,6 +67,7 @@ def FindClosestPari1D(x):
     return x[0], x[1]
   elif n == 1:
     print 'fuck here!'
+    exit()
 
   m = ls.LinearSelect(x, 0, n-1, n/2)
   x1 = []
@@ -84,7 +85,7 @@ def FindClosestPari1D(x):
       x2.append(e)
       if b3 is None:
         b3 = e
-      elif b3 < e:
+      elif b3 > e:
         b3 = e
 
   a1, b1 = FindClosestPari1D(x1)
@@ -108,8 +109,6 @@ if __name__ == '__main__':
   plot(arr, [1]*len(arr), marker = '*', color = 'red')
   plot([a1, a2], [1]*2, marker = 'o', color = 'blue')
   show()
-
-
 
 
 

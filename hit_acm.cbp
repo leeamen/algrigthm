@@ -42,14 +42,17 @@
 			<Option link="0" />
 		</Unit>
 		<Unit filename="closest_pair_1d.py" />
+		<Unit filename="closest_pair_2d.py" />
 		<Unit filename="hit-1003.cpp">
 			<Option link="0" />
 		</Unit>
 		<Unit filename="insert_sort.cpp" />
 		<Unit filename="linear_select.cpp" />
+		<Unit filename="linear_select.py" />
 		<Unit filename="qsort.cpp">
 			<Option link="0" />
 		</Unit>
+		<Unit filename="sort.py" />
 		<Extensions>
 			<code_completion />
 			<envvars />

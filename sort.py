@@ -53,8 +53,46 @@ def QuickSort(x, start_idx, end_idx):
   '''
   QuickSort(x, i + 1, end_idx)
 
+
+'''
+快速排序
+'''
+def QuickSortCallback(x, start_idx, end_idx, compare):
+  i = start_idx
+  j = end_idx
+
+  if i >= j:
+    return
+
+  pivot = x[start_idx];
+
+  while i < j:
+    while i < j and compare(x[j], pivot) > 0:
+      j-=1
+
+    if i < j:
+      x[i] = x[j];
+      i+=1
+
+    while i < j and compare(x[i], pivot) < 0:
+      i+=1
+
+    if i < j:
+      x[j] = x[i];
+      j-=1
+  x[i] = pivot
+
+  '''
+  左边
+  '''
+  QuickSortCallback(x, start_idx, i - 1, compare);
+  '''
+  右边
+  '''
+  QuickSortCallback(x, i + 1, end_idx, compare)
+
 if __name__ == '__main__':
-  arr = [3,4,4,1,3,4,5,1,3,8,9,0]
+  arr = [2.1,4,4.2,1,3,4,5,1,3,8,9,0]
   QuickSort(arr, 0, len(arr) - 1)
   print arr
 
