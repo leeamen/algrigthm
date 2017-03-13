@@ -43,6 +43,7 @@
 		</Unit>
 		<Unit filename="closest_pair_1d.py" />
 		<Unit filename="closest_pair_2d.py" />
+		<Unit filename="convexhull_bf.py" />
 		<Unit filename="hit-1003.cpp">
 			<Option link="0" />
 		</Unit>
