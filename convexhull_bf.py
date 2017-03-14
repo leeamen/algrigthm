@@ -12,6 +12,11 @@ class Point(object):
     self.x = x
     self.y = y
     self.remove = False
+
+    '''
+    极角
+    '''
+    self.polar = None
   def isRemove(self):
     return self.remove
   def Remove(self):
@@ -134,6 +139,20 @@ def BruteForceCH2(arr, n):
       j+=1
     i+=1
 
+
+def PlotPoints(arr, n):
+  '''
+  plot
+  '''
+  plt.figure()
+  plt.axis('equal')
+  for i in range(0, n):
+    if arr[i].isRemove():
+      plt.plot(arr[i].x, arr[i].y, marker = '*', color = 'blue')
+    else:
+      plt.plot(arr[i].x, arr[i].y, marker = 'o', color = 'red')
+  plt.show()
+
 if __name__ == '__main__':
   print 'start...'
 
@@ -149,17 +168,8 @@ if __name__ == '__main__':
   #BruteForceCH1(arr, n)
   BruteForceCH2(arr, n)
 
-  '''
-  plot
-  '''
-  plt.figure()
-  plt.axis('equal')
-  for i in range(0, n):
-    if arr[i].isRemove() is False:
-      plt.plot(arr[i].x, arr[i].y, marker = 'o', color = 'red')
-  for i in range(0, n):
-    plt.plot(arr[i].x, arr[i].y, marker = '*', color = 'blue')
-  plt.show()
+  PlotPoints(arr, n)
+
 
 
 
