@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1488217273 source:d:\hit_acm\hit_acm\hit-1003.cpp
+1490956191 source:d:\hit_acm\hit_acm\hit-1003.cpp
 	<iostream>
 	<queue>
 
@@ -10,7 +10,7 @@
 	<iostream>
 	<algorithm>
 
-1488961237 source:d:\hit_acm\hit_acm\qsort.cpp
+1490857346 source:d:\hit_acm\hit_acm\qsort.cpp
 	<iostream>
 	<cstdio>
 	<cstdlib>
@@ -39,11 +39,79 @@
 	<iostream>
 	<vector>
 
-1489318167 source:d:\hit_acm\hit_acm\linear_select.cpp
+1490432222 source:d:\hit_acm\hit_acm\linear_select.cpp
 	<random>
 	<iostream>
 	<vector>
 
-1489246667 source:d:\hit_acm\hit_acm\insert_sort.cpp
+1489323497 source:d:\hit_acm\hit_acm\insert_sort.cpp
 	<iostream>
+
+1492181978 source:d:\hit_acm\hit_acm\shiqi.cpp
+	<iostream>
+	<vector>
+
+1490857239 source:d:\hit_acm\hit_acm\ch4_lcs_dp.cpp
+	<iostream>
+
+1490857376 source:d:\hit_acm\hit_acm\sum_of_n_num.cpp
+	<bits/stdc++.h>
+
+1490969164 source:d:\hit_acm\hit_acm\ch4_lcs.cpp
+	<iostream>
+	<string>
+	<cstring>
+
+1490971126 source:d:\hit_acm\hit_acm\ch4_01knapsack.cpp
+	<iostream>
+
+1490969751 source:d:\hit_acm\hit_acm\lintcode_lcs.cpp
+	<iostream>
+	<cstring>
+
+1490971652 source:d:\hit_acm\hit_acm\lintcode_beibao.cpp
+	<iostream>
+	<vector>
+	<cstring>
+
+1491292863 source:d:\hit_acm\hit_acm\lintcode_187_gas.cpp
+	<iostream>
+	<vector>
+
+1491301460 source:d:\hit_acm\hit_acm\zuoye_5.2.cpp
+	<iostream>
+
+1491759707 source:d:\hit_acm\hit_acm\ch7_1.cpp
+	<iostream>
+	<cmath>
+
+1492182528 source:d:\hit_acm\hit_acm\leet.538_bst_to_greater.cpp
+	<iostream>
+	<vector>
+
+1492257277 source:d:\hit_acm\hit_acm\leet.1.two.sum.cpp
+	<iostream>
+	<vector>
+	<stack>
+	<unordered_map>
+
+1492268659 source:d:\hit_acm\hit_acm\leet.146.lru_cache.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<list>
+	<utility>
+
+1492275335 source:d:\hit_acm\hit_acm\leet.42.trapping_rain_water.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<list>
+	<utility>
 

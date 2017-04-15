@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#define QSORT_LIB 1
+
 void qsort(int* arr, int start_index, int end_index)
 {
     int pivot, i, j;
@@ -46,7 +48,7 @@ void qsort(int* arr, int start_index, int end_index)
     qsort(arr, start_index, i-1);
     qsort(arr, i+1, end_index);
 }
-
+#if QSORT_LIB < 1
 int main(int argc, char **argv)
 {
     int arr[] = {3,4,1,2,3,4,6,7};
@@ -58,4 +60,4 @@ int main(int argc, char **argv)
     }
     return 0;
 }
-
+#endif

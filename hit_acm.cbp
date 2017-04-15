@@ -41,19 +41,45 @@
 		<Unit filename="ch3_product.cpp">
 			<Option link="0" />
 		</Unit>
+		<Unit filename="ch4_01knapsack.cpp">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="ch4_lcs.cpp" />
+		<Unit filename="ch7_1.cpp">
+			<Option link="0" />
+		</Unit>
 		<Unit filename="closest_pair_1d.py" />
 		<Unit filename="closest_pair_2d.py" />
 		<Unit filename="convexhull_bf.py" />
-		<Unit filename="hit-1003.cpp">
-			<Option link="0" />
-		</Unit>
+		<Unit filename="convexhull_graham.py" />
+		<Unit filename="hit-1003.cpp" />
 		<Unit filename="insert_sort.cpp" />
+		<Unit filename="leet.1.two.sum.cpp" />
+		<Unit filename="leet.146.LRU_Cache.cpp" />
+		<Unit filename="leet.42.Trapping_Rain_Water.cpp" />
+		<Unit filename="leet.538_bst_to_greater.cpp" />
 		<Unit filename="linear_select.cpp" />
 		<Unit filename="linear_select.py" />
-		<Unit filename="qsort.cpp">
+		<Unit filename="lintcode_187_gas.cpp">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="lintcode_beibao.cpp">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="lintcode_lcs.cpp">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="qsort.cpp" />
+		<Unit filename="shiqi.cpp">
 			<Option link="0" />
 		</Unit>
 		<Unit filename="sort.py" />
+		<Unit filename="sum_of_n_num.cpp">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="zuoye_5.2.cpp">
+			<Option link="0" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

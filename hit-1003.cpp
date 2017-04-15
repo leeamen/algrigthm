@@ -3,6 +3,8 @@
 
 using namespace std;
 
+#define HIT_1003_LIB 1
+
 struct Farmer{
     int price;
     int amount;
@@ -17,7 +19,7 @@ struct cmp{
 };
 
 
-
+#if HIT_1003_LIB < 1
 int main()
 {
     int N, M;
@@ -68,3 +70,5 @@ int main()
     }
     return 0;
 }
+
+#endif

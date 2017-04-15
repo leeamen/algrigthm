@@ -141,7 +141,7 @@ def BruteForceCH2(arr, n):
 
 
 def PlotPoints(arr, n):
-  '''
+    '''
   plot
   '''
   plt.figure()

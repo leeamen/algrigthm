@@ -3,7 +3,7 @@
 #include<iostream>
 #include<vector>
 
-#define LINEAR_SELECT_LIB 0
+#define LINEAR_SELECT_LIB 1
 
 #define LENGTH(a) (sizeof(a)/sizeof(int))
 
